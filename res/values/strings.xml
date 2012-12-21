@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="calculatorTitle">Calculator App</string>
+    <string name="addButton">Add</string>
+    <string name="subtractButton">Subtract</string>
+    <string name="multiplyButton">Multiply</string>
+    <string name="divideButton">Divide</string>
+    <string name="xValue">First Value</string>
+    <string name="yValue">Second Value</string>
+</resources>

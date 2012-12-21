@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculatorTitle" />
+
+    <EditText
+        android:id="@+id/xValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="@string/xValue"/>
+
+    <EditText
+        android:id="@+id/yValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="@string/yValue"/>
+
+    <Button
+        android:text="@string/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="add" />
+
+    <Button
+        android:text="@string/subtractButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="subtract" />
+
+    <Button
+        android:text="@string/multiplyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="multiply" />
+
+    <Button
+        android:text="@string/divideButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="divide" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
